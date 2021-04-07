@@ -1,5 +1,9 @@
 #include <stdio.h>
 int main() {
-   printf("Hello, World!");
+	int counter = 0;
+
+	for (counter; counter < 100 ; counter ++){
+		printf("Wellcome %d \n ", counter);
+	}
    return 0;
 }
